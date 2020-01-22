@@ -1,0 +1,22 @@
+### YamlMime:QSharpType
+uid: microsoft.quantum.canon.modulus
+name: Modulus
+type: function
+namespace: Microsoft.Quantum.Canon
+summary: Modulus has been deprecated. Please use @"microsoft.quantum.math.modulusi" instead.
+syntax: 'function Modulus (value : Int, modulus : Int) : Int'
+input:
+  content: '(value : Int, modulus : Int)'
+  types:
+  - name: value
+    isPrimitive: true
+    uid: Int
+  - name: modulus
+    isPrimitive: true
+    uid: Int
+output:
+  content: Int
+  types:
+  - isPrimitive: true
+    uid: Int
+...

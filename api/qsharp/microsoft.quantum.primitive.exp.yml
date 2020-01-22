@@ -1,0 +1,30 @@
+### YamlMime:QSharpType
+uid: microsoft.quantum.primitive.exp
+name: Exp
+type: operation
+namespace: Microsoft.Quantum.Primitive
+summary: Exp has been deprecated. Please use @"microsoft.quantum.intrinsic.exp" instead.
+syntax: 'operation Exp (paulis : Pauli[], theta : Double, qubits : Qubit[]) : Unit'
+input:
+  content: '(paulis : Pauli[], theta : Double, qubits : Qubit[])'
+  types:
+  - name: paulis
+    isArray: true
+    isPrimitive: true
+    uid: Pauli
+  - name: theta
+    isPrimitive: true
+    uid: Double
+  - name: qubits
+    isArray: true
+    isPrimitive: true
+    uid: Qubit
+output:
+  content: Unit
+  types:
+  - isPrimitive: true
+    uid: Unit
+functors:
+- Adjoint
+- Controlled
+...

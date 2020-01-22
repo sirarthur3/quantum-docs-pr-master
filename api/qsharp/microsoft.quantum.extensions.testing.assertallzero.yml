@@ -1,0 +1,23 @@
+### YamlMime:QSharpType
+uid: microsoft.quantum.extensions.testing.assertallzero
+name: AssertAllZero
+type: operation
+namespace: Microsoft.Quantum.Extensions.Testing
+summary: AssertAllZero has been deprecated. Please use @"microsoft.quantum.diagnostics.assertallzero" instead.
+syntax: 'operation AssertAllZero (qubits : Qubit[]) : Unit'
+input:
+  content: '(qubits : Qubit[])'
+  types:
+  - name: qubits
+    isArray: true
+    isPrimitive: true
+    uid: Qubit
+output:
+  content: Unit
+  types:
+  - isPrimitive: true
+    uid: Unit
+functors:
+- Adjoint
+- Controlled
+...

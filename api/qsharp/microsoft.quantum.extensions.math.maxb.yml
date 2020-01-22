@@ -1,0 +1,22 @@
+### YamlMime:QSharpType
+uid: microsoft.quantum.extensions.math.maxb
+name: MaxB
+type: function
+namespace: Microsoft.Quantum.Extensions.Math
+summary: MaxB has been deprecated. Please use @"microsoft.quantum.math.maxl" instead.
+syntax: 'function MaxB (a : BigInt, b : BigInt) : BigInt'
+input:
+  content: '(a : BigInt, b : BigInt)'
+  types:
+  - name: a
+    isPrimitive: true
+    uid: BigInt
+  - name: b
+    isPrimitive: true
+    uid: BigInt
+output:
+  content: BigInt
+  types:
+  - isPrimitive: true
+    uid: BigInt
+...

@@ -1,0 +1,17 @@
+### YamlMime:QSharpType
+uid: microsoft.quantum.math.complexpolartocomplex
+name: ComplexPolarToComplex
+type: function
+namespace: Microsoft.Quantum.Math
+summary: ComplexPolarToComplex has been deprecated. Please use @"microsoft.quantum.math.complexpolarascomplex" instead.
+syntax: 'function ComplexPolarToComplex (input : Microsoft.Quantum.Math.ComplexPolar) : Microsoft.Quantum.Math.Complex'
+input:
+  content: '(input : Microsoft.Quantum.Math.ComplexPolar)'
+  types:
+  - name: input
+    uid: microsoft.quantum.math.complexpolar
+output:
+  content: Microsoft.Quantum.Math.Complex
+  types:
+  - uid: microsoft.quantum.math.complex
+...

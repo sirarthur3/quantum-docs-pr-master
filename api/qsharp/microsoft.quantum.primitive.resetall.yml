@@ -1,0 +1,20 @@
+### YamlMime:QSharpType
+uid: microsoft.quantum.primitive.resetall
+name: ResetAll
+type: operation
+namespace: Microsoft.Quantum.Primitive
+summary: ResetAll has been deprecated. Please use @"microsoft.quantum.intrinsic.resetall" instead.
+syntax: 'operation ResetAll (qubits : Qubit[]) : Unit'
+input:
+  content: '(qubits : Qubit[])'
+  types:
+  - name: qubits
+    isArray: true
+    isPrimitive: true
+    uid: Qubit
+output:
+  content: Unit
+  types:
+  - isPrimitive: true
+    uid: Unit
+...

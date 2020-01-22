@@ -1,0 +1,22 @@
+### YamlMime:QSharpType
+uid: microsoft.quantum.primitive.t
+name: T
+type: operation
+namespace: Microsoft.Quantum.Primitive
+summary: T has been deprecated. Please use @"microsoft.quantum.intrinsic.t" instead.
+syntax: 'operation T (qubit : Qubit) : Unit'
+input:
+  content: '(qubit : Qubit)'
+  types:
+  - name: qubit
+    isPrimitive: true
+    uid: Qubit
+output:
+  content: Unit
+  types:
+  - isPrimitive: true
+    uid: Unit
+functors:
+- Adjoint
+- Controlled
+...

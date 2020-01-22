@@ -1,0 +1,25 @@
+### YamlMime:QSharpType
+uid: microsoft.quantum.chemistry.jordanwigner.preparetrialstate
+name: PrepareTrialState
+type: operation
+namespace: Microsoft.Quantum.Chemistry.JordanWigner
+syntax: 'operation PrepareTrialState (stateData : (Int, Microsoft.Quantum.Chemistry.JordanWigner.JordanWignerInputState[]), qubits : Qubit[]) : Unit'
+input:
+  content: '(stateData : (Int, Microsoft.Quantum.Chemistry.JordanWigner.JordanWignerInputState[]), qubits : Qubit[])'
+  types:
+  - name: stateData
+    types:
+    - isPrimitive: true
+      uid: Int
+    - isArray: true
+      uid: microsoft.quantum.chemistry.jordanwigner.jordanwignerinputstate
+  - name: qubits
+    isArray: true
+    isPrimitive: true
+    uid: Qubit
+output:
+  content: Unit
+  types:
+  - isPrimitive: true
+    uid: Unit
+...

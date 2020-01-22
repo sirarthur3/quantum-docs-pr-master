@@ -1,0 +1,16 @@
+### YamlMime:QSharpType
+uid: microsoft.quantum.extensions.math.e
+name: E
+type: function
+namespace: Microsoft.Quantum.Extensions.Math
+summary: E has been deprecated. Please use @"microsoft.quantum.math.e" instead.
+syntax: 'function E () : Double'
+input:
+  content: ()
+  types: []
+output:
+  content: Double
+  types:
+  - isPrimitive: true
+    uid: Double
+...

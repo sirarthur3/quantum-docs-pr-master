@@ -1,0 +1,19 @@
+### YamlMime:QSharpType
+uid: microsoft.quantum.extensions.diagnostics.dumpmachine
+name: DumpMachine
+type: function
+namespace: Microsoft.Quantum.Extensions.Diagnostics
+summary: DumpMachine has been deprecated. Please use @"microsoft.quantum.diagnostics.dumpmachine" instead.
+syntax: "function DumpMachine (location : 'T) : Unit"
+input:
+  content: "(location : 'T)"
+  types:
+  - name: location
+    uid: "'T"
+    isLocal: true
+output:
+  content: Unit
+  types:
+  - isPrimitive: true
+    uid: Unit
+...

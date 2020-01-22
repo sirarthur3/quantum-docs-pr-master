@@ -1,0 +1,19 @@
+### YamlMime:QSharpType
+uid: microsoft.quantum.extensions.convert.todouble
+name: ToDouble
+type: function
+namespace: Microsoft.Quantum.Extensions.Convert
+summary: ToDouble has been deprecated. Please use @"microsoft.quantum.convert.intasdouble" instead.
+syntax: 'function ToDouble (a : Int) : Double'
+input:
+  content: '(a : Int)'
+  types:
+  - name: a
+    isPrimitive: true
+    uid: Int
+output:
+  content: Double
+  types:
+  - isPrimitive: true
+    uid: Double
+...
